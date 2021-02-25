@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>psudo selectors and designing</title>
+    <style>
+        .container{
+            background-color: rgb(238, 162, 134);
+            border: 3px solid rgb(58, 3, 12);
+            padding: 34px;
+            margin: 34px auto;
+            width: 600px;
+        }
+        a{
+            text-decoration: none;
+            /* background-color: salmon; */
+        }
+        a:hover{
+            color: black;
+            background-color: rgb(216, 27, 27);
+            
+        }
+        a:visited{
+            background-color:  rgb(236, 189, 34);
+        }
+        a:active{
+            background-color:  rgb(5, 5, 94);
+        }
+        .btn{
+            background-color: rgb(48, 3, 30);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            border-radius: 3px;
+            color: salmon;
+            font-size: 13px;
+        }
+        .btn:hover{
+            color: black;
+            background-color: rgb(216, 27, 27);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>
+            This is Sadia
+        </h3>
+        <P>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eveniet esse ab velit quia harum repellat accusamus provident dolores necessitatibus ea officia pariatur corrupti quo eos quasi reiciendis praesentium corporis voluptatum, saepe et nisi ipsum. Consequatur, obcaecati aut? Quibusdam iste soluta labore consectetur culpa. Eum!
+        </P>
+        <a href="https://www.yahoo.com" class="btn" >Read More</a>
+        <button class="btn">Contact us</button>
+    </div>
+</body>
+</html>
